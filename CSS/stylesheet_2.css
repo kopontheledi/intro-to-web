@@ -1,0 +1,41 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+.heading {
+    text-align: center;
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+    padding-bottom: 2%;
+
+
+}
+img {border-radius: 100%;}
+
+.introductory {color: black;
+font-family:sans-serif}
+
+.menu {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: floralwhite;
+    width: fit-content;
+    height: fit-content;
+    padding: 3%;
+}
+
+.content {
+    background-color: lightsalmon;
+    padding-bottom: 2%;
+}
+
+footer {
+    background-color: darkgray;
+    padding: 2%;
+}
+
+article {
+    margin-left: 2%;
+}
