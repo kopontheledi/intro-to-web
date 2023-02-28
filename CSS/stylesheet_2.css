@@ -3,23 +3,27 @@ html {
 }
 
 
-
 .heading {
     text-align: center;
     background-color: darkgray;
     color: rgb(255, 255, 255);
     padding-bottom: 2%;
 
-
 }
-img {border-radius: 100%;}
 
-.introductory {color: black;
-font-family:sans-serif}
+img {
+    border-radius: 50%;
+}
+
+
+.introductory {
+    color: black;
+    font-family: sans-serif
+}
 
 .menu {
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color:darkgreen;
     background-color: floralwhite;
     width: fit-content;
     height: fit-content;
