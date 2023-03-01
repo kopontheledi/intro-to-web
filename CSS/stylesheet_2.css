@@ -6,40 +6,62 @@ html {
 .heading {
     text-align: center;
     background-color: darkgray;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: dotted;
+
 
 }
 
+/*this helps make my image circle*/
 img {
     border-radius: 50%;
+    border-style: groove;
 }
 
 
 .introductory {
-    color: black;
-    font-family: sans-serif
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
 }
+a {color:crimson}
 
 .menu {
     font-family: 'Times New Roman', Times, serif;
-    color:darkgreen;
+    color: black;
     background-color: floralwhite;
     width: fit-content;
     height: fit-content;
-    padding: 3%;
+    /*to make the menu fit exactly at the corner*/
+    margin-top: -2.2%;
+    font-size: 20px;
 }
 
 .content {
     background-color: lightsalmon;
-    padding-bottom: 2%;
+    border-style: double;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 
 footer {
     background-color: darkgray;
-    padding: 2%;
+    padding-right: 3%;
+    border-style:dotted;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-article {
-    margin-left: 2%;
+/*to highlight my topics*/
+#education,
+#skills,
+#experience {
+    color: antiquewhite;
 }
+body {margin-top: 5%;
+margin-bottom: 5%;}
