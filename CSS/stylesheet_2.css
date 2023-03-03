@@ -45,7 +45,8 @@ a:hover {
     width: fit-content;
     height: fit-content;
     /*to make the menu fit exactly at the corner*/
-    margin-top: -2.0%;
+    margin-top: 0%;
+    border-style:double;
     font-size: 20px;
 }
 
