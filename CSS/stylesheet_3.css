@@ -1,6 +1,6 @@
 html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:antiquewhite;
+    background-color: antiquewhite;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 10px;
@@ -9,19 +9,23 @@ html {
 }
 
 
- .heading {
+.heading {
     display: flex;
     background-color: darkgray;
-    color: rgb(0, 0, 0);}
-     
+    color: rgb(0, 0, 0);
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
 
 
 
 /*this helps make my image circle and position it*/
-img { 
+img {
     border-radius: 50%;
-    position:relative;
+    position: relative;
     top: 2px;
+    border-style:double;
 
 
 
@@ -29,13 +33,13 @@ img {
 
 
 .introductory {
-    color:black;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:large;
+    font-size: large;
     width: 30%;
-   
-    
-} 
+
+
+}
 
 a {
     color: crimson;
@@ -51,12 +55,13 @@ a:hover {
     background-color: floralwhite;
     flex-direction: column;
     display: flex;
-    position:relative;
-    left:800px;
-    bottom:565.9px;
-margin-right: 80%;
-font-size:x-large;
-} 
+    position: relative;
+    left: 800px;
+    bottom: 565.9px;
+    margin-right: 80%;
+    font-size: x-large;
+
+}
 
 /*my contact details*/
 footer {
@@ -71,61 +76,63 @@ footer {
 #botton {
     background-color: black;
     float: left;
-        margin-top: 15%;
+    margin-top: 15%;
 }
 
 /*to highlight my topics*/
 #education,
 #skills,
 #experience {
-    color:crimson;
+    color: crimson;
 }
-h1 {font-size: xx-large;
-color: crimson;
+
+h1 {
+    font-size: xx-large;
+    color: crimson;
 }
 
 /*flexing*/
 .flexbox-container {
     display: flex;
     border-style: double;
-    justify-content:space-around;
+    justify-content: space-around;
     background-color: coral;
-    
+
 }
 
 .flexbox-item {
     width: 200px;
     margin: 10px;
-} 
-   
+}
+
 
 .flexbox-item1 {
-    background-color:sandybrown;
-   min-height:500px;
-   width: 400px;
-   align-self:self-start;
-font-size: larger;
-border-style: dashed;
-align-self: flex-end;
+    background-color: sandybrown;
+    min-height: 500px;
+    width: 400px;
+    align-self: self-start;
+    font-size: larger;
+    border-style: dashed;
+    align-self: flex-end;
 }
 
 .flexbox-item2 {
-    background-color:sandybrown;
-   min-height: 400px;
-   width: 400px;
-   border-style: dashed;
-   align-self: center;
-   font-size:larger;
+    background-color: sandybrown;
+    min-height: 400px;
+    width: 400px;
+    border-style: dashed;
+    align-self: center;
+    font-size: larger;
 }
 
 .flexbox-item3 {
-    background-color:sandybrown;
+    background-color: sandybrown;
     height: 400px;
     align-self: flex-end;
     border-style: dashed;
     font-size: larger;
 }
 
-.content{
-    margin-bottom: -150px;
+.content {
+    margin-bottom: -200px;
 }

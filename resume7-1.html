@@ -15,7 +15,7 @@
       <section class="content">
          <header class="heading" id="heading">
 
-            <div class="flexbox-content">
+            <div>
                <img src="./image\kopo.jpg" alt="kopo" height="300px" width="300px">
                <h1>Kopo Ntheledi</h1>
                <p class="introductory"><strong>To work in an environment which encourages me to
@@ -27,6 +27,7 @@
                      challenges</strong>
                </p>
                <aside class="menu">
+
                   <nav>
                      <!--links to main content-->
 
@@ -36,7 +37,9 @@
                         <li><a href="#experience">Experience</a></li>
                         <li><a href="#skills">Skills</a></li>
                      </ul>
+
                   </nav>
+
                </aside>
             </div>
 
@@ -50,10 +53,12 @@
          <article>
             <div class="flexbox-container">
                <div class="flexbox-item flexbox-item1">
+
                   <h2 id="education">Education</h2>
 
                   <h3><strong>Intro to Web at</strong> <a href="https://learn.codespace.co.za/">CodeSpace Academy</a>
                   </h3>
+
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                      et
                      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -68,10 +73,12 @@
                      aliquip
                      ex
                      ea commodo consequat.</p>
+
                </div>
 
                <div class="flexbox-item flexbox-item2">
                   <h2 id="experience">Experience</h2>
+
                   <!--my past job-->
                   <h3 class="myFirstjob">Job 1- Sales Consultant</h3>
                   <p>
@@ -109,76 +116,92 @@
             </div>
          </article>
       </section>
-   
+
    </section>
-   
+
    <footer>
+
+      <!--the button takes the viewer back to the top of the resume-->
       <button id="button">
          <h3><a href="#heading" id="back-a">back to top</a></h3>
-     </button>
+      </button>
 
-     <!--details of the person viewing my resume-->
-     <form action="https://formsubmit.co/kopontheledi@gmail.com" method="POST">
-<br>
-<div>
-   <select name="subject" id="subject">
-      <option value="interview">Interview Opputunity</option>
-      <option value="recruiter">Recruiter</option>
-      <option value="website feedback">Website feedback</option>
-   </select>
-</div>
-      <br>
-      <div>
-         <label for="title">title:</label>
+      <fieldset>
 
-         <label for="Mr.">Mr.</label>
-         <input type="radio" name="title" value="Mr." id="Mr.">
+         <form action="https://formsubmit.co/kopontheledi@gmail.com" method="POST">
 
-         <label for="Ms.">Ms.</label>
-         <input type="radio" name="title" value="Ms." id="Ms.">
-      </div>
+            <br>
 
-      <br>
+            <div>
 
-      <div>
-      <label for="first name">first name</label>
-      <input type="text" id="first name" name="first name" required>
-   </div>
+               <select name="subject" id="subject">
+                  <option value="interview">Interview Opputunity</option>
+                  <option value="recruiter">Recruiter</option>
+                  <option value="website feedback">Website feedback</option>
 
-<br>
+               </select>
 
-<div>
-      <label for="last name">last name</label>
-      <input type="text" id="last name" name="last name" required>
-   </div>
+            </div>
 
-   <br>
+            <br>
 
-   <div>
-      <label for="message">message</label>
-      <input type="message"  for="message" name="message" cols="30" rows="30" placeholder="optional...">
-   </div>
+            <div>
 
-<br>
+               <label for="title">title:</label>
+               <!--radio buttons-->
+               <label for="Mr.">Mr.</label>
+               <input type="radio" name="title" value="Mr." id="Mr.">
 
-<div>
-    <label for="email">email</label>
-      <input type="email" id="email" name="email" placeholder="OWaffels@gmail.com" required>
-</div>
-<br>
+               <label for="Ms.">Ms.</label>
+               <input type="radio" name="title" value="Ms." id="Ms.">
 
-<div>
-   <input type="reset">
-  </div>
-  
-  <br>
-  
-  <div>
-  <input type="submit">
-  </div>
-  
+            </div>
 
-     </form>
+            <br>
+            <!--name and surname of the person viewing my resume-->
+            <div>
+
+               <label for="first name">first name</label>
+               <input type="text" id="first name" name="first name" placeholder="name" required>
+
+            </div>
+
+            <br>
+
+            <div>
+
+               <label for="last name">last name</label>
+               <input type="text" id="last name" name="last name" placeholder="surname" required>
+               
+            </div>
+
+            <br>
+
+            <!--this gives the person viewing the resume options to select from-->
+            <div>
+               <textarea type="message" for="message" name="message" placeholder="add comment" required></textarea>
+            </div>
+
+            <br>
+            <!--email of the person viewing my resume-->
+            <div>
+               <label for="email">email</label>
+               <input type="email" id="email" name="email" placeholder="OWaffels@gmail.com" required>
+            </div>
+            <br>
+            <!--this is to help the person viewing my resume reset or submit their input-->
+            <div>
+               <input type="reset">
+            </div>
+
+            <br>
+
+            <div>
+               <input type="submit">
+            </div>
+
+         </form>
+      </fieldset>
       <!--my contact details-->
       <h2 id="contact details">Contact Details</h2>
       <p>Email: kopontheledi@gmail.com</p>
