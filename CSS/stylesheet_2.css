@@ -19,6 +19,7 @@ html {
 img {
     border-radius: 50%;
     border-style: groove;
+    top: 2px;
 }
 
 
