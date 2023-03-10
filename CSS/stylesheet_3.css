@@ -1,48 +1,31 @@
 html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     border-style: double;
 }
 
 
-.heading {
+#header {
     color: rgb(0, 0, 0);
-    text-align: center;
     padding-bottom: 20%;
-    padding-top:0;
-    background-image: url(.../image/heropic.jpg)
+    background-image: url(/image/backgroundImage.jpg);
+    height: 500px;
+    background-size: cover;
+    text-align: center;
 }
-
-
-
-
 
 /*this helps make my image circle and position it*/
 img {
-    border-radius: 50%;
-    position: relative;
-    top: 2px;
+    border-radius: 30%;
     border-style: double;
-    text-align: center;
-
+    height: auto;
 }
-
-
-
-
 .introductory {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    width: 40%;
-    padding-left: 30%;
+   padding: 3%;
+    background-color: darkgray;
 }
-
-
-
 
 a {
     color: crimson;
@@ -52,25 +35,16 @@ a:hover {
     color: blueviolet;
 }
 
-/* 
- .menu {
-    font-family: 'Times New Roman', Times, serif;
+
+/*this is the part that has links to my content*/
+ .menu li {
+    display: inline;
     color: black;
-    background-color: floralwhite; */
-/* text-align:start;
-    position: static; */
-
-
-/* position: relative;
-    left: 400px; 
-    bottom: 565.9px;
-    margin-right: 80%;
-    font-size: x-large; }*/
-
-
-
-
-
+    list-style: none;
+ }
+.menu{
+    text-align: center;
+}
 /*my contact details*/
 footer {
     background-color: darkgray;
@@ -90,21 +64,20 @@ footer {
 /*to highlight my topics*/
 #education,
 #skills,
-#experience {
+#experience,
+#introduction {
     color: crimson;
 }
 
+/*to highlight my topics*/
 h1 {
     font-size: xx-large;
     color: crimson;
     text-align: center;
 }
 
-picture {
-    text-align: center;
-}
 
-/*flexing*/
+/*flexing of my content*/
 .flexbox-container {
     display: flex;
     border-style: double;
@@ -146,32 +119,12 @@ picture {
     align-self: flex-end;
     border-style: dashed;
     font-size: larger;
-
 }
 
-.content {
-    margin-bottom: -200px;
-}
 
 .flexbox-item4 {
     display: flex;
     flex-direction: row;
 }
 
-.flexbox-container1 {
-    display: flex;
-    justify-content: space-evenly;
-    background-image: url(../image/a60e96a3-14ff-47a3-a17d-83caf5681e14.jfif);
-    margin-bottom: -69px;
 
-
-}
-
-.flexbox-1 {
-    flex-wrap: wrap;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.flexbox-2 {
-    font-size: medium;
-}
