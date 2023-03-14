@@ -120,26 +120,26 @@ footer {
 
 .flexbox-item1 {
     background-color: sandybrown;
-    width: 400px;
-    align-self: self-start;
+    width: 430px;
     font-size: larger;
     border-style: dashed;
-    align-self: flex-end;
+    padding-left: 5px;
 }
 
 .flexbox-item2 {
     background-color: sandybrown;
-    width: 400px;
+    width: 430px;
     border-style: dashed;
-    align-self: center;
     font-size: larger;
+    padding-left: 5px;
 }
 
 .flexbox-item3 {
-    background-color: sandybrown;
-    align-self: flex-end;
+    background-color: sandybrown ;
+    width: 420px;
     border-style: dashed;
     font-size: larger;
+    padding-left: 5px;
 
 }
 
